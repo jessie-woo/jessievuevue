@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/news">News</router-link> 
+
   </div>
   <router-view/>
 </template>
@@ -16,7 +18,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 10px;     /*與上面間距*/
 }
 
 #nav a {
@@ -25,6 +27,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #0b525b;
 }
 </style>
